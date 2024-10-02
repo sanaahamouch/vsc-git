@@ -1,0 +1,45 @@
+header{ background-color:#8d6e63;
+}
+header{
+height: 4cm; }
+#image{ float: left;
+width: 2cm; height: 2cm;}
+a{float:right ; color: white;
+
+}
+main{
+top: 5px;
+border: 5px #f4f1ea solid;
+padding: 10px;
+margin: 5px;
+background-image: url(background-office-bg-changed.jpg);
+}
+
+section{display: flex;
+border:2px solid white ;
+flex-direction: row;
+justify-content: space-around;
+}
+section>img:first-child{grid-column: ;}
+section{background-color: #f4f1ea;}
+section>img{width: 6cm;
+height: 6cm;
+position: static;}
+h1{ text-align: center; font-size: xx-large; color:white;}
+
+footer{background-color: #efebe9;
+}
+footer{content: normal;
+    width: auto ;
+    height: 4cm;
+    top: 20cm;
+    border:2cm #f4f1ea solid;
+    padding: 2cm;
+    margin: auto;
+}
+.bo{background-color: #8d6e63;
+    content: normal;
+}
+p{text-align:center ;}
+h6{text-align: center;}
+.text{color: white;}
